@@ -1,0 +1,17 @@
+{
+  "name": "xcrap-ai-summary-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Turn an X thread into a ready-to-send LLM summary prompt with XCrap.",
+  "type": "module",
+  "main": "summarize.js",
+  "scripts": {
+    "start": "node summarize.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@xcrapcc/sdk": "^1.1.0"
+  }
+}
