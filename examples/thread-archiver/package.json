@@ -1,0 +1,17 @@
+{
+  "name": "xcrap-thread-archiver-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Archive a list of X threads as Markdown files with XCrap.",
+  "type": "module",
+  "main": "archive.js",
+  "scripts": {
+    "start": "node archive.js urls.txt archive"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@xcrapcc/sdk": "^1.1.0"
+  }
+}
